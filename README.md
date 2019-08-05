@@ -13,12 +13,10 @@ nutrient density
 Depletion chain reaction
 B3 -> C -> Iron 
 
-### 1. Sugar deplets
-B5 from nerve muscle tissue, 
+### 1. Sugar 
+depletes B5 from nerve muscle tissue, 
 magnesium phosphorus from bones
 #### cause of depression cured in 2 days B vitamins B6
-
-#### fat storage
 carbohydrates signals
 
 ### 2. impoverished white flour
@@ -28,9 +26,4 @@ white | brown rice 80% B1
 83% B6
 86% manganese
 
-
 ### 3. processed oils
-
-
-### 4. dairy
-
