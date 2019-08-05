@@ -1,5 +1,3 @@
-# needs
-
 ## The things I need
 1. Opportunities.
 2. A reliable feedback loop of being helpful (and getting a reward in form of reducing suffering).
