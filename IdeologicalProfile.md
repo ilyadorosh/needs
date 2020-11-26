@@ -1,7 +1,8 @@
 ## 23
 greatfulness sends the right incentives
 
-funding studies
+funding studies via crowdfunding, on a subscription basis, like Patreon
+or on a project basis.
 
 ## 22
 instead of army
