@@ -62,3 +62,9 @@ olive oil disease
 
 ### Daniel
 collaborative thinking 
+
+### Michael Moore
+#### 23 [US] - Fix healthcare
+#### 22 - Reduce carbon emissions
+
+### 
