@@ -1,0 +1,17 @@
+- [ ] NVIDIA GPU hashtags
+- [ ] google earth traveling twitch
+- [ ] finish game 	
+- [ ] real brands big companies pie size
+- [ ] circular topography gravity trajectory
+- [ ] dead connectome - store feelings
+- [ ] integrate facebook, $
+- [ ] get $, build the robot
+- [ ] order relay automatically report replace 
+- [ ] cauliflower or honey or grass smoothie
+- [ ] apply to Bosch, curevac
+- [ ] finish DW B1
+- [ ] android dev
+- [ ] 2 resumes
+- [ ] resume data science 
+- [ ] ilyadorosh.github.io website clean
+- [ ] RNA train Matthew Bayesian folding @home
