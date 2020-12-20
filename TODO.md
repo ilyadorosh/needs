@@ -7,7 +7,7 @@
 - [ ] integrate facebook, $
 - [ ] get $, build the robot
 - [ ] order relay automatically report replace 
-- [ ] cauliflower or honey or grass smoothie
+- [x] cauliflower or honey or grass smoothie
 - [ ] apply to Bosch, curevac
 - [ ] finish DW B1
 - [ ] android dev
