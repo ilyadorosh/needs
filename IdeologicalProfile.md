@@ -41,14 +41,15 @@ I have an idea for the public health. The government should supply everyone with
 But also use it for livestock and fungal diseases on plants
 
 # Egora improvement ideas - for Cezary
-voting remotely referendum app
-videos on homepage
-pull up an idea URL in the chat
-incentives for curation - spotlight stake
-idea author leader versioning discussion, like here with Git diff, or Wiki engine
-Copy laws across countries, 
-learn from others
-"Where to invade next"
+- voting remotely referendum app
+- videos on homepage
+- Page title include the page
+- pull up an idea URL in the chat
+- incentives for curation - spotlight stake
+- idea author leader versioning discussion, like here with Git diff, or Wiki engine
+- Copy laws across countries, 
+- learn from others
+- "Where to invade next"
 Norway penitentiary rehab programs
 Denmark
 ## subdivide and merge
