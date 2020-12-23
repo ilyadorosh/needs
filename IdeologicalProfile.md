@@ -128,6 +128,10 @@ collaborative thinking
 
 ### Matt Ridley
 #### Allow more innovation to solve challenges faster
-be an optimist
+be a rational optimist
+
+### Chamath Palihapitiya
+#### 23
+    Make corporations invest in innovation, not in stock buybacks
 
 
