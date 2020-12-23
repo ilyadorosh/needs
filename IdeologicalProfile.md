@@ -50,22 +50,84 @@ But also use it for livestock and fungal diseases on plants
 - Copy laws across countries, 
 - learn from others
 - "Where to invade next"
+- idea.hashtags column
+
+These roles need to give some privileges during the meetings, so there is an incentive, like in a game - progressing through levels
+It would be cool if a member conducting a meeting and getting people to support an idea got some points.
+Which would then be exchanged for real money. Incentivizing collective decision making, providing people with income. Let the competition begin.
+
 Norway penitentiary rehab programs
 Denmark
 ## subdivide and merge
 let users support specific clauses, remove them, emphasize dd 
 
 # Topics to deliberate with experts
-### Kathleen
+### Kathleen Newman
 complexity cloud
 corporations automation
 olive oil disease
 
-### Daniel
+### Daniel Twedt
 collaborative thinking 
+
+### Shawn Murphy
+#### Help people make sense of the world and colaborate
+
+### Edward Group
+    take MgO
+#### eliminate
+    
+### Nassim Taleb
+#### eliminate
+#### be antifragile
+#### mind fat tail risks
 
 ### Michael Moore
 #### 23 [US] - Fix healthcare
 #### 22 - Reduce carbon emissions
 
-### 
+### David Sinclair
+#### spread the knowledge beyond billionaires
+#### aging is a disease
+#### sugar is dangerous
+
+### Dr. Mercola
+#### avoid processed food
+
+### Mark Ruffalo
+#### Clean up the rivers from PFOAs
+
+### Leonardo diCaprio
+#### buy Teslas
+
+### Arnold Swarzeneger
+#### buy Teslas
+
+### Greta Thunberg
+#### Stop flying
+
+### Mark Zuckerberg
+#### Move fast, break things
+#### Learn Chinese
+#### connect people
+
+### Larry Page
+#### Ogrganize information, make it useful
+
+### Brian Cesky
+#### make lifelong friends
+
+### CouchSurfing
+#### be open - get unexpected adventure
+
+### Max Levchin
+#### make banks transparent
+
+### Paul Grahm
+#### make something people want
+
+### Matt Ridley
+#### Allow more innovation to solve challenges faster
+be an optimist
+
+
