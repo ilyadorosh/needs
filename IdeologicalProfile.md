@@ -137,7 +137,30 @@ be a rational optimist
 ### Elon Musk
 #### 23
 Spread life over the solar system to diversify
-Establish a base on the Moon
+#### Establish a base on the Moon
 
 ### Johannes Schumacher
 Establish a base on the Moon
+
+### Tom Ingoglia
+#### Life Extension Advocacy
+- Pharmacracy: Hormones cause cancer
+- Natural medicine: Synthetic hormones cause cancer. Hormones make you live longer, increase intelligence and lower depression among other things. The dose makes the poison...stay in the range of when you were 25 years old.
+- Pharmacracy: vitamin A causes cancer
+- Natural medicine: Specifically Synthetic vitamin A causes cancer
+- Pharmacracy: HGH causes cancer
+- Natural medicine: synthetic hgh causes cancer. real HGH makes you live longer or at least healthier or so we see. It was smart to make it a highly controlled substance. Hat tip. That was lobbying well spent. The rest of the world has it readily available.
+- Pharmacracy: vitamin E raises mortality
+- Natural medicine: Synthetic vitamin E (alpha tocopherol raises mortality by blocking other key vitamin E spectrum vitamins.) Stop eating industrial vitamin E. Take broad-spectrum vitamin E.
+- Pharmacracy: Ok, now we admit vitamin C kills cancer, but not for anything serious (like stage 4).
+- Natural medicine: you lied the first time with horribly constructed studies. Why should we listen to you?
+- Pharmacracy: Vitamin D clogs arteries.
+- Natural medicine: Vitamin D makes you live longer. Take vitamin K if you are worried about calcification.
+- Pharmacracy: NAD causes cancer.
+- Natural medicine: Why did you buy the patents and shelve it in the 1960s...? Oh, methadone was more lucrative?
+- Pharmacracy: Ozone should be banned
+- Natural medicine: It already is. But the whole world is using it for viruses like HIV, lyme and covid with degrees of success. The USA is the odd freak country for not legitimately making it legal.
+- Pharmacracy: hyperbaric oxygen should only be used for few things.
+- Natural medicine: It already is. But the whole world is using it for basically every problem under the sun. Again, the USA is the corrupt odd man out.
+- Pharmacracy: Our stuff has better science.
+- Natural medicine: Yes, conventional medicine often has better medicine. But not so much when translate things to English. We cannot patent natural things so there is no incentive. JAMA (the main journal of conventional medicine in America) says that Conventional medicine is the #4 killer. And science is starting to show that functional medicine has better outcomes. Give it time. You’ll be wrong here too.
