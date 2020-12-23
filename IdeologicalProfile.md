@@ -117,7 +117,7 @@ collaborative thinking
 ### Brian Cesky
 #### make lifelong friends
 
-### CouchSurfing
+### Casey Fenton
 #### be open - get unexpected adventure
 
 ### Max Levchin
