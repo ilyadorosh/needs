@@ -164,3 +164,7 @@ Establish a base on the Moon
 - Natural medicine: It already is. But the whole world is using it for basically every problem under the sun. Again, the USA is the corrupt odd man out.
 - Pharmacracy: Our stuff has better science.
 - Natural medicine: Yes, conventional medicine often has better medicine. But not so much when translate things to English. We cannot patent natural things so there is no incentive. JAMA (the main journal of conventional medicine in America) says that Conventional medicine is the #4 killer. And science is starting to show that functional medicine has better outcomes. Give it time. You’ll be wrong here too.
+
+
+### John Cryan
+#### Use <em>Bifidobacterium longum</em> APC1472 to cure obesity
