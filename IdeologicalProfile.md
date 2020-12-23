@@ -134,4 +134,10 @@ be a rational optimist
 #### 23
     Make corporations invest in innovation, not in stock buybacks
 
+### Elon Musk
+#### 23
+Spread life over the solar system to diversify
+Establish a base on the Moon
 
+### Johannes Schumacher
+Establish a base on the Moon
