@@ -24,11 +24,18 @@ it would be easier to estimate the future
 ## 20 - challenge trials + decentralized biohacking
 
 ## 18 - Universal Basic Meaning
-The government should ensure everybody is engaged in improvement of the human condition.
-UB unbiased aid 
-UB services
-credit benefit
-combine ideas to create jobs 
+- The government should ensure everybody is engaged in improvement of the human condition.
+- UB unbiased aid 
+- UB services
+- credit benefit
+- combine ideas to create jobs 
+#### problem:
+administrative overhead for unemployment program
+gives the wrong incentive to not get a job
+#### solution:
+get better at valuing someone's work
+pay for getting a job
+bounties for problem solving
 
 ## 17 - "Specific Basic Income"
 Government to pay for good behavior based on peer-to-peer verification of each other.
