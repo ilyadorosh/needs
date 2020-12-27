@@ -112,6 +112,7 @@ collaborative thinking
 
 ### Greta Thunberg
 #### Stop flying
+    harmful jobs
 
 ### Mark Zuckerberg
 #### Move fast, break things
@@ -184,4 +185,5 @@ Establish a base on the Moon
 ### Jay Dyer
     Steering commission
     Think tanks
+    planned obsolescence
 
