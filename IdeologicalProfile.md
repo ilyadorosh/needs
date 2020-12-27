@@ -175,3 +175,13 @@ Establish a base on the Moon
 
 ### John Cryan
 #### Use <em>Bifidobacterium longum</em> APC1472 to cure obesity
+
+### Roosh Valizadeh
+1. We should be thankful for 2020
+1. We have something to thank God for every minute
+1. government program called Complimentary Heterosexual Affections Directive (CHAD). Incels will be given a mobile QR code for a complimentary legalized sex session every six months
+
+### Jay Dyer
+    Steering commission
+    Think tanks
+
