@@ -97,9 +97,17 @@ collaborative thinking
 #### spread the knowledge beyond billionaires
 #### aging is a disease
 #### sugar is dangerous
+- NMN
+- Resveratrol
+- Metformin
+- C60 Fullerene
+- Growth hormone
+- Charcoal
+- Yamanaka factors
 
 ### Dr. Mercola
 #### avoid processed food
+- Berberine
 
 ### Mark Ruffalo
 #### Clean up the rivers from PFOAs
