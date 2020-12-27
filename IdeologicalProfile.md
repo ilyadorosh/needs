@@ -58,6 +58,7 @@ But also use it for livestock and fungal diseases on plants
 - learn from others
 - "Where to invade next"
 - idea.hashtags column
+- Limit order waiting for the right
 
 These roles need to give some privileges during the meetings, so there is an incentive, like in a game - progressing through levels
 It would be cool if a member conducting a meeting and getting people to support an idea got some points.
