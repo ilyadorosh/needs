@@ -196,3 +196,5 @@ Establish a base on the Moon
     Think tanks
     planned obsolescence
 
+### Milton Friedman
+    Negative income tax
