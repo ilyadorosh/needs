@@ -162,6 +162,9 @@ be a rational optimist
 #### 23
     Make corporations invest in innovation, not in stock buybacks
 
+### Ray Dalio
+Idea meritocracy
+
 ### Elon Musk
 #### 23
 Spread life over the solar system to diversify
@@ -196,6 +199,21 @@ Establish a base on the Moon
 
 ### John Cryan
 #### Use <em>Bifidobacterium longum</em> APC1472 to cure obesity
+
+### Dr Max Gerson
+potassium
+
+### Dr Mercola
+processed food and brain health
+
+### John Dinsley 
+activated charcoal 
+
+### David Sinclair
+energy, mitochondria, fasting, exercise 
+
+### Joe Rogan
+nootropics and pharmaceutical industry
 
 ### Roosh Valizadeh
 1. We should be thankful for 2020
