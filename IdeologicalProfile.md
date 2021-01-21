@@ -1,5 +1,14 @@
-## 23 Universal Basic Income:
-In our sophisticated society with a complex economy we recognize that, while we must incentivize people to be productive members of our society, the value of the contributions of some members to society cannot easily be gauged by their activity in the market (for example, parents, artists, philosophers, community servants, etc.). Furthermore, we recognize that markets can fail to reward people despite their best efforts to be productive. For this reason, we should institute a Universal Basic Income (UBI). The amount of this UBI should be dependent on the size of the economy so as to never disincentivize higher productivity of our society.
+## 23 GRATITUDE as an Income:
+#### problem:
+In our sophisticated society with a complex economy we recognize that, while we must incentivize people to be productive members of our society, the value of the contributions of some members to society cannot easily be gauged by their activity in the market (for example, artists, philosophers, community servants, etc.). 
+Furthermore, we recognize that markets can fail to reward people despite their best efforts to be productive.
+The externalities are not priced in. Government regulations and specialized institutions (EPA, FDA) are easily manipulated by the industry.
+Good and effective treatment protocols and household lifehacks fade away because they don't generate revenue.
+Supporting monetarily is not enough. A separate unit of measurement to send the right signal.
+
+#### solution: 
+For this reason, we should institute a Gratitude program (GRAT). 
+The amount of GRAT should be dependent on the value created to incentivize higher productivity of our society.
 
 - gratefulness sends the right incentives
 - funding studies via crowdfunding, on a subscription basis, like Patreon
