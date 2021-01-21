@@ -1,10 +1,12 @@
-## 23
-greatfulness sends the right incentives
-funding studies via crowdfunding, on a subscription basis, like Patreon
+## 23 Universal Basic Income:
+In our sophisticated society with a complex economy we recognize that, while we must incentivize people to be productive members of our society, the value of the contributions of some members to society cannot easily be gauged by their activity in the market (for example, parents, artists, philosophers, community servants, etc.). Furthermore, we recognize that markets can fail to reward people despite their best efforts to be productive. For this reason, we should institute a Universal Basic Income (UBI). The amount of this UBI should be dependent on the size of the economy so as to never disincentivize higher productivity of our society.
+
+- gratefulness sends the right incentives
+- funding studies via crowdfunding, on a subscription basis, like Patreon
 or on a project basis.
-innovative solutions search institution
-Governments should incentivize investments in companies, developing green technologies, regenerative agriculture, education on sustainability. 
-Colonization of space, acceleration of gene therapy, curing aging.
+- innovative solutions search institution
+- Governments should incentivize investments in companies, developing green technologies, regenerative agriculture, education on sustainability. 
+- Colonization of space, acceleration of gene therapy, curing aging.
 
 ## 22
 instead of army
@@ -30,12 +32,12 @@ it would be easier to estimate the future
 - credit benefit
 - combine ideas to create jobs 
 #### problem:
-administrative overhead for unemployment program
-gives the wrong incentive to not get a job
+- administrative overhead for unemployment program
+- gives the wrong incentive to not get a job
 #### solution:
-get better at valuing someone's work
-pay for getting a job
-bounties for problem solving
+- get better at valuing someone's work
+- pay for getting a job
+- bounties for problem solving
 
 ## 17 - "Specific Basic Income"
 Government to pay for good behavior based on peer-to-peer verification of each other.
