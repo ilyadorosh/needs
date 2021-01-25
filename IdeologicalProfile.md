@@ -129,6 +129,14 @@ collaborative thinking
 
 ### Arnold Swarzeneger
 #### buy Teslas
+- Sleep faster
+- Allocate an hour a day for your body
+- Supplemments are necessary
+- Don't waste your time
+- Have a goal
+
+### Sylvester Stallone
+- HGH helps you recover
 
 ### Greta Thunberg
 #### Stop flying
