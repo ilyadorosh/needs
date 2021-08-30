@@ -1,0 +1,45 @@
+@prefix a: <http://example.org/stuff/1.0/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+
+a:1self a:predicate a:Undo .
+a:1self a:predicate a:Decades .
+a:1self a:predicate a:Motivational .
+a:1self a:predicate a:DET_Talk .
+a:1self a:predicate a:Recycle .
+a:1self a:predicate a:Decades .
+a:1self a:predicate a:Equality_in_quality .
+a:1self a:predicate a:Plan_it .
+a:1self a:predicate a:Inevitability .
+a:1self a:predicate a:Remember_the_future .
+a:1self a:state a:sleep .
+a:sleep a:coffee a:program .
+a:program a:relax a:sleep .
+a:sleep a:unwind a:dream .
+a:dream a:insight a:program .
+a:dream a:includes a:Remember_the_future .
+
+a:Bacterial_overgrowth a:causes a:Increase_in_bacterial_byproducts_and_mucus_production .
+a:Increase_in_bacterial_byproducts_and_mucus_production a:causes a:Injury_to_small_intestinal_surface .
+a:Injury_to_small_intestinal_surface a:causes a:Impaired_digestion_of_disaccharides .
+a:Impaired_digestion_of_disaccharides a:causes a:Malabsorption_of_disaccharides .
+a:Malabsorption_of_disaccharides a:causes a:Bacterial_overgrowth .
+a:Bacterial_overgrowth a:image a:very_bad .
+
+a:bile_flow a:reduces a:Bacterial_overgrowth .
+a:Gerson_therapy a:includes a:Coffee_enema .
+a:Coffee_enema a:increases a:bile_flow .
+a:Coffee_enema a:increases dbpedia:Glutathione .
+a:anxiety a:reduces a:bile_flow .
+
+a:blelieving_in_God a:causes a:giving_up_control .
+
+a:blelieving_in_God a:causes a:following_simple_instructions .
+a:blelieving_in_God a:causes a:praying .
+a:praying a:causes a:planning_the_better_outcome .
+a:following_simple_instructions a:reduces a:anxiety .
+a:planning_the_better_outcome a:reduces a:anxiety .
+
+a:fat_soluble_carcinogens a:detoxified a:bile_flow .
+a:dioxin3 a:belongs_to a:fat_soluble_carcinogens .
+a:Glucosinolates a:prevents a:cancer .
+a:Sulforaphane a:prevents a:cancer .
