@@ -8,4 +8,4 @@ a:funding a:requires a:pitching .
 a:pitching a:requires a:demoing .
 a:demoing a:requires a:HuViz .
 a:demoing a:requires a:Datasets .
-a:demoing a:requires a:Undo .
+a:demoing a:requires a:Easy_data_entry .
