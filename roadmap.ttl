@@ -3,6 +3,8 @@
 
 a:funding a:requires a:growth .
 a:growth a:requires a:MVP .
+a:growth a:requires a:utility .
+a:discoverability a a:utility .
 a:growth a:requires a:Network_effects .
 a:funding a:requires a:pitching .
 a:pitching a:requires a:demoing .
