@@ -1,0 +1,21 @@
+@prefix a: <http://example.org/stuff/1.0/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+
+a:bile_flow a:reduces a:Bacterial_overgrowth .
+a:Gerson_therapy a:includes a:Coffee_enema .
+a:Coffee_enema a:increases a:bile_flow .
+a:Coffee_enema a:increases dbpedia:Glutathione .
+a:anxiety a:reduces a:bile_flow .
+
+a:blelieving_in_God a:causes a:giving_up_control .
+
+a:blelieving_in_God a:causes a:following_simple_instructions .
+a:blelieving_in_God a:causes a:praying .
+a:praying a:causes a:planning_the_better_outcome .
+a:following_simple_instructions a:reduces a:anxiety .
+a:planning_the_better_outcome a:reduces a:anxiety .
+
+a:fat_soluble_carcinogens a:detoxified a:bile_flow .
+a:dioxin3 a:belongs_to a:fat_soluble_carcinogens .
+a:Glucosinolates a:prevents a:cancer .
+a:Sulforaphane a:prevents a:cancer .
