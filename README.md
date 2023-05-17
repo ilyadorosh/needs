@@ -1,8 +1,5 @@
-## The things I need
-1. Opportunities.
-2. A reliable feedback loop of being helpful (and getting a reward in form of reducing suffering).
-3. I want to figure out how to effectively handle images on the DSP so that you can run neural networks on mobile devices.
-4. Create something like FaceApp, that was # 1 among free apps in the US.
+## plan
+# 1 among free apps in the US.
 5. Raw organic sprouts
 
 ## The things I have to avoid
