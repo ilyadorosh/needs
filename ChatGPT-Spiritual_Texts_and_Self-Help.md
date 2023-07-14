@@ -1,5 +1,15 @@
 # Spiritual Texts and Self-Help
 
+| Task | Start Date | End Date | Duration | Dependency | Progress |
+|------|------------|----------|----------|------------|----------|
+| Deciding when and whom to write short emails | 14 Jul 2023 | 28 Jul 2023 | 2 weeks | None | 0% |
+| Generating natural language queries from user input | 29 Jul 2023 | 19 Aug 2023 | 3 weeks | Deciding when and whom to write short emails | 0% |
+| Retrieving relevant code snippets from database | 20 Aug 2023 | 3 Sep 2023 | 2 weeks | Generating natural language queries from user input | 0% |
+| Generating natural language responses from code snippets | 4 Sep 2023 | 25 Sep 2023 | 3 weeks | Retrieving relevant code snippets from database | 0% |
+| Displaying responses to user in chatbot interface | 26 Sep 2023 | 10 Oct 2023 | 2 weeks | Generating natural language responses from code snippets | 0% |
+
+
+
 #### You:
 list all the spiritual texts of humankind: not only Christianity, but also Buddhism, Hinduism, maybe Stoicism, and others. 
 
