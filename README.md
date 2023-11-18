@@ -1,4 +1,15 @@
 ## plan
+```python
+def self_reflection_everyday(day, growth_areas, strength_areas):
+    print("Reflect on personal strengths, weaknesses, and interests")
+    growth_areas, strength_areas = identify_personal_attributes()
+
+    day += 1
+    if day % 7 == 0:
+        update_goals_and_strategies(growth_areas, strength_areas)
+        
+    return day, growth_areas, strength_areas
+```
 # 1 among free apps in the US.
 5. Raw organic sprouts
 
