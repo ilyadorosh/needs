@@ -19,3 +19,23 @@ Meine eigeninitiativen Projekte ermöglichten es mir, wertvolle Erfahrungen in d
 Meine Erfahrungen erstrecken sich ebenfalls auf den Umgang mit Big Data, Datenanalyse und der Entwicklung spezifischer Algorithmen. Zudem verfüge ich über Programmierkenntnisse in Java und bin versiert im Einsatz von ML-Frameworks. Auch im Bereich der Containertechnologien konnte ich während meiner Zeit als Softwareentwickler wertvolle Kompetenzen erwerben. Meine sprachlichen Fähigkeiten bewegen sich auf einem sicheren B2/C1-Niveau und ich bin mit den Fachterminologien der KI-Technologie auf Deutsch vertraut, nicht zuletzt durch meine Teilnahme an Vorlesungen als Gasthörer an der LMU München und der FAU Erlangen. Darüber hinaus bilde ich mich kontinuierlich durch fachbezogene Online-Videos fort.
 
 Ich bin überzeugt, dass ich in einem persönlichen Vorstellungsgespräch und gegebenenfalls einem Praktikum meine Eignung und Motivation unter Beweis stellen kann. Die Unterstützung Ihres Teams bei anstehenden Projekten erfüllt mich mit Vorfreude.
+
+Betreff: Bewerbung als Senior Frontend Developer im Bereich Application Modernization Services
+
+Sehr geehrte Damen und Herren,
+
+mit großem Interesse habe ich Ihre Stellenausschreibung für die Position des Senior Frontend Developers im Bereich Application Modernization Services (AMS) AD gelesen. Aufgrund meiner umfangreichen Erfahrung in der Softwareentwicklung, insbesondere in der Frontend-Entwicklung mit Angular, sowie meiner Leidenschaft für moderne Entwicklungsprozesse und -methoden, bin ich überzeugt, dass ich Ihr Team hervorragend unterstützen kann.
+
+In meinen bisherigen beruflichen Stationen konnte ich mehr als 5 Jahre Erfahrung in der Entwicklung von Webanwendungen sammeln. Während dieser Zeit war ich maßgeblich an der Gestaltung und Umsetzung von User Interfaces beteiligt, die sich durch ihre Benutzerfreundlichkeit und innovatives Design auszeichnen. Ich habe ein tiefgreifendes Verständnis für die Bedeutung einer engen Zusammenarbeit mit Backend-Entwicklern, um nahtlose und leistungsstarke Anwendungen zu schaffen. Meine Erfahrung mit Angular und Typescript, gepaart mit einem soliden Wissen über OOP-Prinzipien, MVC/MVP, Designmuster sowie Clean Code Prinzipien, ermöglicht mir, qualitativ hochwertige und wartbare Codebasen zu entwickeln.
+
+Mein Engagement für die Anwendung agiler Methoden wie SCRUM und Kanban hat es mir ermöglicht, effizient in dynamischen Entwicklungsumgebungen zu arbeiten. Darüber hinaus bringe ich Erfahrung in der Verwendung von Versionskontrollsystemen wie GIT, CI/CD-Prozessen und Container-basierten Deployments mit Docker und Kubernetes mit, was die Effizienz und die Qualität der von mir entwickelten Anwendungen weiter steigert.
+
+Ich schätze die Möglichkeit, in Teams zu arbeiten, in denen ich mein Fachwissen teilen und gleichzeitig von den Erfahrungen meiner Kollegen lernen kann. Die von Ihnen beschriebene Kultur der Wissensvermittlung und des gemeinsamen Lernens spricht mich besonders an. Ich bin ebenso bereit, die geforderte Sicherheitsüberprüfung zu durchlaufen und verfüge über die notwendige Flexibilität und Reisebereitschaft.
+
+Abschließend möchte ich betonen, dass ich nicht nur über die fachlichen Qualifikationen verfüge, welche die Position erfordert, sondern auch hoch motiviert bin, mein Wissen und meine Fähigkeiten in Ihr Unternehmen einzubringen. Ich bin davon überzeugt, dass meine proaktive Herangehensweise und meine Hands-on-Mentalität einen wertvollen Beitrag zu Ihrem Team leisten können.
+
+Ich freue mich auf die Möglichkeit, weiter über meine Eignung für diese Stelle zu sprechen und danke Ihnen im Voraus für Ihre Zeit und Berücksichtigung.
+
+Mit freundlichen Grüßen
+
+[Ihr Name]
