@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ChatGPT//Schedule 2024
+BEGIN:VEVENT
+DTSTART:20240422T080000
+DTEND:20240422T170000
+SUMMARY:Work Day - Developing Language Model Chatbot
+DESCRIPTION:Develop language model-driven chatbot for Chinese customers\n- Research, development, testing, and refinement\n- Parallel work by team members\n- Monitor and optimize performance throughout the week
+LOCATION:Your Workplace
+END:VEVENT
+END:VCALENDAR
