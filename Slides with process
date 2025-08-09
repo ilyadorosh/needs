@@ -1,0 +1,173 @@
+# DEHN Production Equipment Assistant
+## System Architecture - PPT Version
+
+---
+
+## Slide 1: Title
+**DEHN Production Equipment Assistant**
+*Mathematical Framework for Smart Component Selection*
+
+- **Challenge:** Automate production equipment selection
+- **Approach:** Structured reasoning + Engineering rules
+- **Goal:** From problem description to compatible components
+
+---
+
+## Slide 2: System Overview
+**From Query to Solution in 7 Steps**
+
+```
+Problem Query → Semantic Analysis → Process Mapping → Component Search → Rule Engine → Compatibility Check → Final Solution
+```
+
+**Key Principle:** Deterministic engineering logic, not AI guesswork
+
+---
+
+## Slide 3: Step 1 - Problem Input
+**Natural Language Query Processing**
+
+**Input Example:**
+*"We need automated labeling system for FRED production. System should inspect quality, position components, and apply printed labels."*
+
+**Extracted Requirements:**
+- Vision inspection ✓
+- Material handling ✓  
+- Label printing ✓
+- Positioning ✓
+
+---
+
+## Slide 4: Step 2 - Process Identification
+**Semantic Search → Process Database**
+
+| Process Type | Process ID | Description |
+|--------------|------------|-------------|
+| Hauptprozess | 100000 | Apply Label |
+| Teilprozess | 100001 | Print and Deploy Label |
+| Teilprozess | 100003 | Pick Up, Manipulate Label |
+| Teilprozess | 100004 | Position Correction |
+
+**Result:** Collection of relevant processes for the query
+
+---
+
+## Slide 5: Step 3 - Component Mapping  
+**Process → Building Blocks**
+
+| Process | Required Components |
+|---------|-------------------|
+| Label Printing (100001) | REA JET Printer, PLC Control |
+| Component Handling (100003) | Robot Arm, Pneumatic Gripper |
+| Position Correction (100004) | Vision Camera, Processing Unit |
+
+**Database Query:** Get all building blocks for identified processes
+
+---
+
+## Slide 6: Step 4 - Rule Engine (Core Innovation)
+**Mathematical Constraint Satisfaction**
+
+**Compatibility Check:**
+```
+κ(componentA, componentB) = w₁·interface + w₂·physical + w₃·safety
+```
+
+**Engineering Rules:**
+- ✅ Power compatibility (24V ↔ 24V)
+- ✅ Interface matching (Ethernet ↔ Ethernet)  
+- ✅ Physical constraints (mounting, space)
+- ✅ Safety compliance (certifications)
+
+**Filter:** Remove incompatible combinations
+
+---
+
+## Slide 7: Step 5 - Optimization
+**Multi-Objective Selection**
+
+**Minimize:** 
+```
+F(solution) = w₁·Cost + w₂·Complexity - w₃·Reliability - w₄·Reuse
+```
+
+**Subject to:**
+- Complete capability coverage ≥ 100%
+- All compatibility constraints satisfied
+- Budget ≤ limit
+- Component count ≤ maximum
+
+---
+
+## Slide 8: Final Output
+**Validated Compatible Components**
+
+| Component ID | Component Name | Process | Justification |
+|--------------|----------------|---------|---------------|
+| 200027 | REA JET Printer | 100001 | Label printing capability |
+| 200001 | Industrial Robot | 100003 | Material handling + positioning |
+| 200025 | Vision Camera | 100004 | Quality inspection + positioning |
+| 200068 | PLC Control Unit | All | Process coordination |
+
+**Solution Metrics:**
+- Coverage: 100% ✓
+- Compatibility: High ✓  
+- Reliability: 4.2/5 ✓
+- Total Cost: Within budget ✓
+
+---
+
+## Slide 9: Why This Works
+**Mathematical vs AI Approaches**
+
+| Aspect | Our Approach | Pure AI/ML |
+|--------|--------------|------------|
+| **Explainable** | ✅ Full traceability | ❌ Black box |
+| **Data Needs** | ✅ Small datasets | ❌ Massive data |
+| **Reliability** | ✅ Guaranteed constraints | ❌ Probabilistic |
+| **Maintenance** | ✅ Easy rule updates | ❌ Requires retraining |
+| **Engineering Trust** | ✅ Auditable logic | ❌ Statistical confidence |
+
+---
+
+## Slide 10: Business Value for DEHN
+**Immediate Benefits:**
+- Consistent decision-making across engineers
+- Reduced compatibility errors
+- Faster solution development
+- Knowledge preservation from experts
+
+**Strategic Benefits:**  
+- Scalable with growing component library
+- Enables innovation through new combinations
+- Standardizes successful patterns
+- Competitive advantage in time-to-market
+
+---
+
+## Slide 11: Implementation Roadmap
+**Phase 1: Proof of Concept (4 weeks)**
+- Core constraint solver
+- FRED example validation
+- Basic optimization engine
+
+**Phase 2: Integration (8 weeks)**  
+- PostgreSQL database connection
+- Production engineering UI
+- Domain-specific rules
+
+**Phase 3: Full System (12 weeks)**
+- Learning from usage patterns  
+- Reliability data integration
+- Multi-domain expansion
+
+---
+
+## Slide 12: Conclusion
+**Engineering Excellence Through Mathematical Rigor**
+
+**Key Insight:** Production equipment selection is a structured engineering problem that benefits from mathematical optimization, not pattern recognition.
+
+**Result:** Reliable, explainable, scalable solution that engineers can trust and validate.
+
+**Ready for DEHN's production future** 🎯
