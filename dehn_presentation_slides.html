@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEHN Production Equipment Assistant</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: #ffffff;
+            overflow: hidden;
+        }
+
+        .slide-container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            text-align: center;
+            position: relative;
+        }
+
+        .slide {
+            display: none;
+            max-width: 1200px;
+            width: 100%;
+            animation: slideIn 0.6s ease-in-out;
+        }
+
+        .slide.active {
+            display: block;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        h1 {
+            font-size: 3.5em;
+            margin-bottom: 30px;
+            background: linear-gradient(45deg, #fff, #a8d8ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+
+        h2 {
+            font-size: 2.8em;
+            margin-bottom: 25px;
+            color: #a8d8ff;
+        }
+
+        h3 {
+            font-size: 1.8em;
+            margin: 20px 0;
+            color: #ffffff;
+            border-bottom: 2px solid #4a90e2;
+            padding-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.3em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .math-formula {
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid #4a90e2;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 1.2em;
+            backdrop-filter: blur(10px);
+        }
+
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin: 20px 0;
+        }
+
+        .benefit-box {
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 15px;
+            padding: 25px;
+            margin: 15px 0;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .benefit-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .comparison-table {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+
+        .comparison-table table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .comparison-table th {
+            background: #4a90e2;
+            padding: 15px;
+            font-size: 1.2em;
+        }
+
+        .comparison-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .comparison-table tr:nth-child(even) {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .navigation {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 15px;
+        }
+
+        .nav-btn {
+            padding: 12px 25px;
+            background: rgba(255, 255, 255, 0.2);
+            border: 2px solid #4a90e2;
+            color: white;
+            cursor: pointer;
+            border-radius: 25px;
+            font-size: 1.1em;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .nav-btn:hover {
+            background: #4a90e2;
+            transform: scale(1.05);
+        }
+
+        .slide-number {
+            position: fixed;
+            top: 30px;
+            right: 30px;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 1.2em;
+        }
+
+        .algorithm-steps {
+            text-align: left;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .algorithm-steps ol {
+            font-size: 1.2em;
+            line-height: 1.8;
+        }
+
+        .algorithm-steps li {
+            margin: 10px 0;
+            padding-left: 10px;
+        }
+
+        .highlight {
+            background: linear-gradient(45deg, #ffd700, #ffed4e);
+            color: #1e3c72;
+            padding: 2px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .dehn-logo {
+            position: fixed;
+            top: 30px;
+            left: 30px;
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #a8d8ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="dehn-logo">DEHN</div>
+    <div class="slide-number">
+        <span id="current-slide">1</span> / <span id="total-slides">9</span>
+    </div>
+
+    <!-- Slide 1: Title -->
+    <div class="slide active">
+        <div class="slide-container">
+            <h1>Mathematical Framework</h1>
+            <h2>Production Equipment Automation</h2>
+            <div class="benefit-box">
+                <h3>Challenge 2: Assistant for Production Equipment Engineering</h3>
+                <p style="text-align: center; font-size: 1.4em; margin-top: 30px;">
+                    <span class="highlight">Structured Reasoning</span> + 
+                    <span class="highlight">Engineering Rigor</span> = 
+                    <span class="highlight">Smart Automation</span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 2: Problem Formulation -->
+    <div class="slide">
+        <div class="slide-container">
+            <h2>Core Problem Formulation</h2>
+            <p>Production equipment selection as a <strong>Multi-Objective Constraint Satisfaction Problem (MO-CSP)</strong></p>
+            
+            <div class="math-formula">
+                <strong>Given:</strong><br>
+                • Set of building blocks B = {b₁, b₂, ..., bₙ}<br>
+                • Set of required capabilities C = {c₁, c₂, ..., cₘ}<br>
+                • Set of constraints K = {physical, electrical, software, safety}<br>
+                • Objective functions F = {cost, reliability, complexity, reuse}<br><br>
+                <strong>Find:</strong> Optimal subset S ⊆ B that maximizes value while satisfying all constraints
+            </div>
+
+            <div class="benefit-box">
+                <h3>Why Mathematical Foundation?</h3>
+                <p>Engineering decisions follow <span class="highlight">deterministic relationships</span>, not random patterns. Mathematical formulation ensures consistent, auditable, scalable solutions.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 3: Capability & Compatibility -->
+    <div class="slide">
+        <div class="slide-container">
+            <h2>Capability Matching & Compatibility</h2>
+            
+            <div class="two-column">
+                <div>
+                    <h3>Capability Coverage</h3>
+                    <div class="math-formula">
+                        γ(bᵢ, cⱼ) = {1 if bᵢ provides cⱼ, 0 otherwise}<br><br>
+                        Γ(S) = Σⱼ max{γ(bᵢ, cⱼ) : bᵢ ∈ S} / |C|
+                    </div>
+                </div>
+                <div>
+                    <h3>Compatibility Matrix</h3>
+                    <div class="math-formula">
+                        κ(bᵢ, bⱼ) = w₁·ι(bᵢ, bⱼ) + w₂·φ(bᵢ, bⱼ) + w₃·σ(bᵢ, bⱼ)<br><br>
+                        ι = interface compatibility<br>
+                        φ = physical compatibility<br>
+                        σ = safety compatibility
+                    </div>
+                </div>
+            </div>
+
+            <div class="benefit-box">
+                <p><span class="highlight">Key Insight:</span> Complete capability coverage (Γ(S) = 1) is necessary but not sufficient - compatibility ensures the solution actually works in practice.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 4: Reliability & Optimization -->
+    <div class="slide">
+        <div class="slide-container">
+            <h2>System Reliability & Optimization</h2>
+            
+            <div class="two-column">
+                <div>
+                    <h3>Reliability Engineering</h3>
+                    <div class="math-formula">
+                        <strong>Series System:</strong><br>
+                        R(S,t) = ∏ᵢ∈S Rᵢ(t)<br><br>
+                        <strong>Component Model:</strong><br>
+                        Rᵢ(t) = e^(-λᵢt)<br><br>
+                        <strong>System MTBF:</strong><br>
+                        E[MTBF] = 1 / Σᵢ∈S λᵢ
+                    </div>
+                </div>
+                <div>
+                    <h3>Multi-Objective Function</h3>
+                    <div class="math-formula">
+                        <strong>Minimize:</strong><br>
+                        F(S) = w₁·Cost(S) + w₂·Complexity(S) - w₃·Reliability(S) - w₄·Reuse(S)<br><br>
+                        <strong>Subject to:</strong><br>
+                        • Γ(S) ≥ 1<br>
+                        • κ(bᵢ, bⱼ) ≥ κₘᵢₙ ∀i,j ∈ S<br>
+                        • Σᵢ∈S cost(bᵢ) ≤ Budget<br>
+                        • |S| ≤ Nₘₐₓ
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 5: Algorithm -->
+    <div class="slide">
+        <div class="slide-container">
+            <h2>Decision Support Algorithm</h2>
+            
+            <div class="algorithm-steps">
+                <h3>Intelligent Component Selection Process</h3>
+                <ol>
+                    <li><span class="highlight">Parse Requirements</span> → Extract capabilities C and constraints K from problem description</li>
+                    <li><span class="highlight">Filter Candidates</span> → B' = {b ∈ B : b provides some c ∈ C}</li>
+                    <li><span class="highlight">Build Compatibility Graph</span> → G = (B', E') where E' = compatible pairs</li>
+                    <li><span class="highlight">Solve MO-CSP</span> → Find Pareto-optimal solutions using mathematical optimization</li>
+                    <li><span class="highlight">Rank Solutions</span> → Apply DEHN-specific engineering preferences and constraints</li>
+                    <li><span class="highlight">Validate</span> → Verify all physical, electrical, and safety constraints satisfied</li>
+                    <li><span class="highlight">Generate Alternatives</span> → Provide ranked options with trade-off analysis</li>
+                </ol>
+            </div>
+
+            <div class="benefit-box">
+                <p>This algorithm combines <span class="highlight">deterministic constraint satisfaction</span> with <span class="highlight">mathematical optimization</span> - no guesswork, full traceability.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 6: Comparison -->
+    <div class="slide">
+        <div class="slide-container">
+            <h2>Mathematical vs Pure ML Approaches</h2>
+            
+            <div class="comparison-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Aspect</th>
+                            <th>Mathematical/Symbolic</th>
+                            <th>Pure Neural Network</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Interpretability</strong></td>
+                            <td>✅ Full traceability</td>
+                            <td>❌ Black box</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Data Requirements</strong></td>
+                            <td>✅ Works with small datasets</td>
+                            <td>❌ Needs massive data</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Constraint Handling</strong></td>
+                            <td>✅ Guaranteed satisfaction</td>
+                            <td>❌ Approximate</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Engineering Validation</strong></td>
+                            <td>✅ Auditable rules</td>
+                            <td>❌ Statistical confidence</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Maintenance</strong></td>
+                            <td>✅ Rules update easily</td>
+                            <td>❌ Requires retraining</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Failure Modes</strong></td>
+                            <td>✅ Predictable behavior</td>
+                            <td>❌ Unpredictable edge cases</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 7: DEHN Benefits -->
+    <div class="slide">
+        <div class="slide-container">
+            <h2>Value Proposition for DEHN</h2>
+            
+            <div class="two-column">
+                <div>
+                    <h3>Immediate Benefits</h3>
+                    <div class="benefit-box">
+                        <p><span class="highlight">Consistency:</span> Same logic applied every time</p>
+                    </div>
+                    <div class="benefit-box">
+                        <p><span class="highlight">Knowledge Preservation:</span> Captures expert knowledge explicitly</p>
+                    </div>
+                    <div class="benefit-box">
+                        <p><span class="highlight">Training:</span> Helps less experienced engineers learn patterns</p>
+                    </div>
+                    <div class="benefit-box">
+                        <p><span class="highlight">Quality:</span> Reduces oversight and compatibility issues</p>
+                    </div>
+                </div>
+                <div>
+                    <h3>Strategic Benefits</h3>
+                    <div class="benefit-box">
+                        <p><span class="highlight">Scalability:</span> Handles growing component library</p>
+                    </div>
+                    <div class="benefit-box">
+                        <p><span class="highlight">Innovation:</span> Enables exploration of new combinations</p>
+                    </div>
+                    <div class="benefit-box">
+                        <p><span class="highlight">Standardization:</span> Promotes reuse of proven solutions</p>
+                    </div>
+                    <div class="benefit-box">
+                        <p><span class="highlight">Competitive Advantage:</span> Faster time-to-market</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 8: Implementation Strategy -->
+    <div class="slide">
+        <div class="slide-container">
+            <h2>Implementation Strategy</h2>
+            
+            <div class="algorithm-steps">
+                <h3>Phase 1: Core Framework (Proof of Concept)</h3>
+                <ol>
+                    <li>Implement constraint satisfaction solver</li>
+                    <li>Build compatibility matrix for existing FRED components</li>
+                    <li>Create basic multi-objective optimization engine</li>
+                    <li>Validate with known successful solutions</li>
+                </ol>
+
+                <h3>Phase 2: Integration (Pilot System)</h3>
+                <ol>
+                    <li>Connect to DEHN's component database (PostgreSQL)</li>
+                    <li>Add domain-specific engineering rules</li>
+                    <li>Build user interface for requirement input</li>
+                    <li>Test with production engineering team</li>
+                </ol>
+
+                <h3>Phase 3: Intelligence Enhancement (Full System)</h3>
+                <ol>
+                    <li>Add learning from usage patterns and feedback</li>
+                    <li>Incorporate real reliability data from maintenance</li>
+                    <li>Expand to new product domains beyond FRED</li>
+                    <li>Integration with existing DEHN engineering tools</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 9: Conclusion -->
+    <div class="slide">
+        <div class="slide-container">
+            <h1>Engineering Excellence</h1>
+            <h2>Through Mathematical Rigor</h2>
+            
+            <div class="benefit-box" style="margin: 40px 0;">
+                <h3>Key Insight</h3>
+                <p style="text-align: center; font-size: 1.4em;">
+                    Production equipment selection is a <span class="highlight">structured engineering problem</span> 
+                    that benefits from mathematical optimization, not a pattern recognition problem requiring machine learning.
+                </p>
+            </div>
+
+            <div class="two-column">
+                <div class="benefit-box">
+                    <h3>Technical Foundation</h3>
+                    <p>✓ Rigorous mathematical framework<br>
+                    ✓ Domain-specific engineering knowledge<br>
+                    ✓ Explainable decision-making</p>
+                </div>
+                <div class="benefit-box">
+                    <h3>Business Impact</h3>
+                    <p>✓ Improved consistency & quality<br>
+                    ✓ Faster decision-making<br>
+                    ✓ Knowledge preservation & scaling</p>
+                </div>
+            </div>
+
+            <div style="margin-top: 40px;">
+                <h3 style="color: #ffd700;">Ready for DEHN's Production Future</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="navigation">
+        <button class="nav-btn" onclick="previousSlide()">← Previous</button>
+        <button class="nav-btn" onclick="nextSlide()">Next →</button>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+        
+        document.getElementById('total-slides').textContent = totalSlides;
+
+        function showSlide(n) {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (n + totalSlides) % totalSlides;
+            slides[currentSlide].classList.add('active');
+            document.getElementById('current-slide').textContent = currentSlide + 1;
+        }
+
+        function nextSlide() {
+            showSlide(currentSlide + 1);
+        }
+
+        function previousSlide() {
+            showSlide(currentSlide - 1);
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowRight' || e.key === ' ') {
+                nextSlide();
+            } else if (e.key === 'ArrowLeft') {
+                previousSlide();
+            }
+        });
+
+        // Auto-advance for demo (remove for actual presentation)
+        // setInterval(nextSlide, 15000);
+    </script>
+</body>
+</html>
